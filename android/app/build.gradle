@@ -77,9 +77,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.appsflyer_deep_link_app"
+    namespace "com.appsflyer_deep_link"
     defaultConfig {
-        applicationId "com.appsflyer_deep_link_app"
+        applicationId "com.appsflyer_deep_link"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -5652,6 +5652,11 @@ react-is@^19.0.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-19.0.0.tgz#d6669fd389ff022a9684f708cf6fa4962d1fea7a"
   integrity sha512-H91OHcwjZsbq3ClIDHMzBShc1rotbfACdWENsmEf0IFvZ3FgGPtdHMcsv45bQ1hAbgdfiA8SnxTKfDS+x/8m2g==
 
+react-native-appsflyer@^6.15.3:
+  version "6.15.3"
+  resolved "https://registry.yarnpkg.com/react-native-appsflyer/-/react-native-appsflyer-6.15.3.tgz#29fd8effff164b880a44e22e1a4e0ee7a135c178"
+  integrity sha512-LH6jb+e2lg0uTW53jYDcM7HrKC2Q8ra+f7GvZl0S/MZ4zsp7WXg4stqSVVJjrszjdQR7XEq5BTE60W6JrK5qVQ==
+
 react-native-safe-area-context@^5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-5.3.0.tgz#272e6786a58aafe3362fde4d3233713b66158179"

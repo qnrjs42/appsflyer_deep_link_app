@@ -1,4 +1,4 @@
-package com.appsflyer_deep_link_app
+package com.appsflyer_deep_link
 
 import android.app.Application
 import com.facebook.react.PackageList
