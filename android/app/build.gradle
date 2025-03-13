@@ -87,10 +87,16 @@ android {
     }
     signingConfigs {
         debug {
-            storeFile file('debug.keystore')
-            storePassword 'android'
-            keyAlias 'androiddebugkey'
-            keyPassword 'android'
+            storeFile file('../../config/appsflyer_deep_link_keystore')
+            storePassword 'asdqwe123!'
+            keyAlias 'appsflyer_deep_link'
+            keyPassword 'asdqwe123!'
+        }
+        release {
+            storeFile file('../../config/appsflyer_deep_link_keystore')
+            storePassword 'asdqwe123!'
+            keyAlias 'appsflyer_deep_link'
+            keyPassword 'asdqwe123!'
         }
     }
     buildTypes {
