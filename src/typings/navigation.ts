@@ -11,3 +11,9 @@ export type DeepLinkScreenProps = NativeStackScreenProps<
   RootStackNavigatorTypes,
   'DeepLink'
 >;
+
+declare global {
+  namespace ReactNavigation {
+    interface RootParamList extends RootStackNavigatorTypes {}
+  }
+}

@@ -1,3 +1,5 @@
+import useDeepLink from '@hooks/useDeepLink';
+import usePermission from '@hooks/usePermission';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import DeepLinkScreen from '@screens/DeepLink';
@@ -10,12 +12,21 @@ const RootStack = createNativeStackNavigator<RootStackNavigatorTypes>();
 function App() {
   return (
     <NavigationContainer linking={navigationLinking}>
-      <RootStack.Navigator initialRouteName="DeepLink">
-        <RootStack.Screen name="Home" component={HomeScreen} />
-        <RootStack.Screen name="DeepLink" component={DeepLinkScreen} />
-      </RootStack.Navigator>
+      <InApp />
     </NavigationContainer>
   );
 }
 
 export default App;
+
+function InApp() {
+  usePermission();
+  useDeepLink();
+
+  return (
+    <RootStack.Navigator initialRouteName="Home">
+      <RootStack.Screen name="Home" component={HomeScreen} />
+      <RootStack.Screen name="DeepLink" component={DeepLinkScreen} />
+    </RootStack.Navigator>
+  );
+}
