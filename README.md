@@ -5,6 +5,12 @@ This is a repository for testing deep links & universal links of AppsFlyer OneLi
 
 I have created it with images to make the unfriendly documentation easier to read and use. Please refer to the document below.
 
+## Version
+
+- react: 19.0.0
+- react-native: 0.78.0
+- react-native-appsflyer: 6.15.3
+
 ## Document
 
 1. Project Setting - https://www.notion.so/qnrjs42/react-native-appsflyer-deep-link-1-1b3ddf410cc580a18b77e9eec2e806fd?pvs=4
